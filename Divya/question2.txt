@@ -1,0 +1,4 @@
+Q2. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+Ans. git remote set-url --add --push all url-2
+It is used to allow user to push both at the same time, to synchronize this repo with a remote Git repo.
+This is helpful when you’re maintaining mirrors / copies of the same repository. All you need to do is set up multiple push URLs on a remote and then perform git push to that remote as you usually do.

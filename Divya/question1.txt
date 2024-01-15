@@ -1,0 +1,8 @@
+Q1. What is cherry-pick? Explain the use case of it also write steps to do it
+Ans. git cherry-pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD.
+Cherry picking is the act of picking a commit from a branch and applying it to another.
+git cherry-pick can be useful for undoing changes.
+cherry-pick commands are :
+1) git cherry-pick --continue
+2) git cherry-pick --skip
+3) git cherry-pick --abort

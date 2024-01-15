@@ -1,0 +1,6 @@
+Q5. Difference between --force push and --force-with-lease, You have to show the use of both, also you have to show in what scenario --force-with-lease is used?
+1. git push --force is a command that allows you to overwrite the remote branch with your local branch, regardless of any conflicts or discrepancies between the two branches.
+Use: a) undoing mistaken push operation, b) Erasing unnecessary commit history.
+2. It allows you to push changes to the remote branch only if the remote branch is at the same commit as the one you have locally. If the remote branch has been updated by someone else, the push will be rejected, preventing accidental overwrites.
+Use: a) Collaborative work, b) rebasing or squashing commits
+

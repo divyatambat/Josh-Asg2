@@ -1,0 +1,56 @@
+Q.1 Simple Interest
+code -->
+package main
+
+import "fmt"
+
+func main() {
+var pr, rate, intr float64
+var time int
+
+fmt.Println("Enter principle amount: ")
+fmt.Scanln(&pr)
+
+fmt.Println("Enter interest rate: ")
+fmt.Scanln(&rate)
+
+fmt.Println("Enter time period: ")
+fmt.Scanln(&time)
+
+intr = (pr * rate * float64(time)) / 100
+fmt.Println("Simple Interest: ", intr)
+}
+
+Output-->
+Enter principle amount:
+120
+Enter interest rate:
+14
+Enter time period:
+65
+Simple Interest:  1092
+
+Q.2 Area of Circle
+Code-->
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var r, area float64
+	const PI float64 = 3.14
+
+	fmt.Println("Enter radius: ")
+	fmt.Scanln(&r)
+
+	area = math.Pi * math.Pow(r, 2)
+	fmt.Println("Area of circle: ", area)
+}
+
+Output-->
+Enter radius:
+13
+Area of circle:  530.929158456675
